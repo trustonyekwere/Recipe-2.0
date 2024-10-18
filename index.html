@@ -7,37 +7,84 @@
     <link rel="stylesheet" href="/css/materialize.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="img/rcon.png" type="image/x-icon">
+    
 </head>
 <body>
-    <div class="container">
-        <header>
-            <section class="navbar"> 
+    <header>
+        <div class="navbar-fixed">
+            <nav class="navbar hide-on-med-and-down z-depth-0"> 
                 <div class="row">
-                    <div class="col l3">
-                        <img class="logo" src="img/logo.png" alt="">
-                    </div>
-                    <div class="col l6">
-                        <ul class="tabs">
-                            <li class="tab col s3"><a href="#test1">Test 1</a></li>
-                            <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-                            <li class="tab col s3"><a href="#test3">Disabled Tab</a></li>
-                            <li class="tab col s3"><a href="#test4">Test 4</a></li>
+                        <div class="col l2">
+                            <img class="logo" src="img/logo.png" alt="">
+                        </div>
+                    <div class="col l8">
+                        <ul>
+                            <li class="col s3"><a href="#">Who We Are</a></li>
+                            <li class="col s3"><a href="#">Find a Recipe</a></li>
+                            <li class="col s3"><a href="#">Our Reviews</a></li>
+                            <li class="col s3"><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="col l3">
-                        <button>LOGIN</button>
+                        <div class="col l2">
+                            <button class="btn">
+                                <a href="#">LOGIN</a>
+                            </button>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+
+    </header>
+        <main>
+            <video autoplay muted class="vid" src="img/header-bg-vid.mp4"></video>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col l6">
+                        <h2>Start Your Culinary Journey <span>today.</span></h2>
+                        <h5>We offer you a gateway to an expertly curated selection of global recipes, ranging from traditional dishes to innovative creations, spanning various cusines and cooking techniques.</h5>
+                        <button class="btn-2">
+                            <a href="#">START YOUR JOURNEY</a>
+                        </button>
+                    </div>
+                    <div class="col l6">
+                        <img src="img/spagetti.png" width="500px" alt="">
                     </div>
                 </div>
-            </section>
-
-        </header>
-        <main>
-            
+                <br>
+                <br>
+                <br>
+                <h2 class="cat">Select a <span> category</span></h2>
+                <div class="row">
+                    <div class="col s12 m7 l4">
+                        <div class="card rounded-borders">
+                            <div class="card-image">
+                                <img src="img/cake-main.jpg" class="responsive-img rounded-borders">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m7 l4">
+                        <div class="card rounded-borders">
+                            <div class="card-image">
+                                <img src="img/chicken-main.jpg" class="responsive-img rounded-borders">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m7 l4">
+                        <div class="card rounded-borders">
+                            <div class="card-image">
+                                <img src="img/soup-main.jpg" class="responsive-img rounded-borders">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             
         </footer>
-    </div>
     <script src="/js/jqueryv3.4.1.js"></script>
     <script src="/js/materialize.min.js"></script>
     <script>
