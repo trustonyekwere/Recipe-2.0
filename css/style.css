@@ -2,11 +2,115 @@
     padding: opx !important;
     margin: 0px !important;
     box-sizing: border-box;
+    color: #E65100 !important;
+    font-family: curvy;
 }
 
--/+
+
+@font-face {
+  font-family: "curvy";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf");
+}
+
+nav{
+  background-color: white;
+  width: 95%;
+  padding: 0px 100px 0px 100px;
+}
+
+nav li a{
+  font-size: 18px !important;
+  text-transform: capitalize;
+  align-items: center;
+  display: flex;
+  font-family: curvy;
+  font-weight: 500;
+}
+
+.logo {
+  max-width: 135px;
+}
+
+.navbar ul li a:hover{
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: -10px;
+  background-color: #E5E4E2 !important;
+}
+
+.navbar ul li a{
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: -200px;
+  margin-bottom: -50px !important;
+  margin-top: 2px !important;
+}
 
   .container {
-    width: 100%;
-    align-items: center;
+    width: 1000%;
+    padding: 0px 100px 0px 200px;
+}
+
+.btn {
+  border-radius: 10px !important;
+  border: #E65100 1px solid;
+  margin: 10px 0px 0px 180px !important;
+  padding: 0px 12px 0px 12px;
+  background-color: #E65100;
+  font-size: 14px;
+}
+
+.btn-2 {
+  border-radius: 10px !important;
+  border: #E65100 1px solid;
+  margin-top: 20px !important;
+  padding: 12px 12px 12px 12px;
+  background-color: #E65100;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn a{
+  color: #fff !important;
+}
+
+.btn:hover{
+  background-color: #E65100;
+  font-weight: 600;
+}
+
+.btn-2 a{
+  color: #fff !important;
+}
+
+.btn-2:hover{
+  background-color: #E65100;
+  font-weight: 600;
+}
+
+.vid {
+  width: 100%;
+  height: 100%;
+}
+
+h2{
+  color: #000 !important;
+  margin-bottom: 25px !important;
+}
+
+h2.cat{
+  color: #000 !important;
+  margin-bottom: 25px !important;
+  padding-left: 280px !important;
+}
+
+h5{
+  color: #000 !important;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.rounded-borders{
+  border-radius: 10px !important;
 }
