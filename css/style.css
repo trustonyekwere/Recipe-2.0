@@ -1,9 +1,9 @@
 *{
-    padding: opx !important;
-    margin: 0px !important;
-    box-sizing: border-box;
-    color: #E65100 !important;
-    font-family: curvy;
+  padding: opx !important;
+  margin: 0px !important;
+  box-sizing: border-box;
+  color: #E65100 !important;
+  font-family: curvy;
 }
 
 
@@ -147,12 +147,13 @@ span.wiz{
   background-color: #000;
 }
 
-.num>h3{
+.num > h3{
   color: #fff !important;
   text-align: center !important;
+  font-size: 50px;
 }
 
-.num>h3 span{
+.num > h3 span{
   color: #E65100;
 }
 
@@ -161,12 +162,18 @@ span.wiz{
 }
 
 .col-l3{
-  padding-bottom: 60px !important;
+  padding-bottom: 90px !important;
 }
 
-.col-l3>h1{
-  padding-left: 18px;
+.col-l3 > p{
+  font-size: 22px;
+  margin-left: -140px !important;
+}
+
+.col-l3 > h1{
+  margin-left: -85px !important;
   color: #fff !important;
+  font-size: 55px;
 }
 
 h2{
