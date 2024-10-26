@@ -312,7 +312,7 @@
                 <br>
                 <h2 class="mobile-cat">Tap on a <span>category</span></h2>
                 <br>
-                <div class="carousel">
+                <div class="carousel carousel-slider">
                     <a class="carousel-item" href="#one!"><img src="img/chicken-main.jpg"></a>
                     <a class="carousel-item" href="#two!"><img src="img/cake-main.jpg"></a>
                     <a class="carousel-item" href="#three!"><img src="img/soup-main.jpg"></a>
@@ -487,7 +487,15 @@
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
-            $('.carousel').carousel();
+            // $('.carousel').carousel();
+            $('.carousel').carousel({
+    padding: 200    
+});
+autoplay();
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 6500);
+}
     });
     </script>
 </body>
