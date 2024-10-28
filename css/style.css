@@ -461,3 +461,13 @@ h6{
   font-size: 22px;
   text-align: center;
 }
+
+.caption h3{
+  color: #fff !important;
+  font-size: 3.3em;
+  text-decoration: underline;
+}
+
+.caption i{
+  color: #fff !important;
+}
